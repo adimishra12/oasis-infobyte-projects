@@ -4,7 +4,33 @@ This repository contains three beginner-level Python projects completed as part 
 
 ## 📋 Projects Included
 
-### 1. Voice Assistant
+### 1. BMI Calculator
+A command-line tool to calculate Body Mass Index (BMI) and categorize results.
+
+**Features:**
+- Input weight (in kilograms) and height (in meters)
+- Calculate BMI using the formula: BMI = weight / (height²)
+- Categorize results as: Underweight, Normal, Overweight, or Obesity
+- Input validation for positive numeric values
+- BMI categories reference display
+- Retry functionality for multiple calculations
+- Exit message for better user experience
+
+**How to Run:**
+```bash
+python bmi_calculator.py
+```
+
+**BMI Categories:**
+- **Underweight:** BMI < 18.5
+- **Normal weight:** 18.5 ≤ BMI < 24.9
+- **Overweight:** 25 ≤ BMI < 29.9
+- **Obesity:** BMI ≥ 30
+
+---
+
+
+### 2. Voice Assistant
 A simple command-line voice assistant that responds to user commands.
 
 **Features:**
@@ -29,30 +55,6 @@ python voice_assistant.py
 
 ---
 
-### 2. BMI Calculator
-A command-line tool to calculate Body Mass Index (BMI) and categorize results.
-
-**Features:**
-- Input weight (in kilograms) and height (in meters)
-- Calculate BMI using the formula: BMI = weight / (height²)
-- Categorize results as: Underweight, Normal, Overweight, or Obesity
-- Input validation for positive numeric values
-- BMI categories reference display
-- Retry functionality for multiple calculations
-- Exit message for better user experience
-
-**How to Run:**
-```bash
-python bmi_calculator.py
-```
-
-**BMI Categories:**
-- **Underweight:** BMI < 18.5
-- **Normal weight:** 18.5 ≤ BMI < 24.9
-- **Overweight:** 25 ≤ BMI < 29.9
-- **Obesity:** BMI ≥ 30
-
----
 
 ### 3. Random Password Generator
 A secure random password generator with customizable options.
