@@ -40,6 +40,8 @@ A simple command-line voice assistant that responds to user commands.
 - Perform web searches by opening the browser
 - Clean user interface with decorative headers
 - Professional code structure
+- Take voice input from the microphone and speak responses using text-to-speech
+
 
 **How to Run:**
 ```bash
@@ -85,7 +87,12 @@ The program will ask you:
 ## 🔧 Requirements
 
 - **Python 3.6+**
-- No external dependencies required (uses only Python standard library)
+- For Voice Assistant:
+  - `speechrecognition`
+  - `pyttsx3`
+  - `pyaudio` (or another supported audio backend for microphone input)
+- For BMI Calculator and Random Password Generator:
+  - No external dependencies (uses only Python standard library)
 
 ## 📁 Project Structure
 
